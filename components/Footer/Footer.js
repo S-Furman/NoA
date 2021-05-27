@@ -1,5 +1,5 @@
 import classes from "./Footer.module.css";
-import Image from "next/Image";
+import Image from "next/image";
 
 const Footer = (props) => (
   <footer className={classes.footer}>
