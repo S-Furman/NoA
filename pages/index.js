@@ -10,7 +10,7 @@ export default function Home() {
       title: `Loose weight Add muscle Stay alert`,
       content:
         "Lorem Ipsum... Lorem Ipsum... Lorem Ipsum... Lorem Ipsum...  Lorem Ipsum... Lorem Ipsum...",
-      img: "/CardPic2.jpg",
+      img: "/cardPic2.jpg",
       alt: "Smoothie",
     },
     {
