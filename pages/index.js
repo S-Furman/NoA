@@ -11,12 +11,14 @@ export default function Home() {
       content:
         "Lorem Ipsum... Lorem Ipsum... Lorem Ipsum... Lorem Ipsum...  Lorem Ipsum... Lorem Ipsum...",
       img: "/CardPic2.jpg",
+      alt: "Smoothie",
     },
     {
       title: "Every smoothie is an experience. Make it count!",
       content:
         "Lorem Ipsum... Lorem Ipsum... Lorem Ipsum... Lorem Ipsum...  Lorem Ipsum... Lorem Ipsum...",
       img: "/CardPic.jpg",
+      alt: "Smoothie",
     },
   ];
 
@@ -32,9 +34,15 @@ export default function Home() {
       </Head>
 
       <MainCard />
-      {cards.map((card) => {
+      {cards.map((card, index) => {
         return (
-          <Card title={card.title} content={card.content} imgPath={card.img} />
+          <Card
+            key={index}
+            title={card.title}
+            content={card.content}
+            imgPath={card.img}
+            alt={card.alt}
+          />
         );
       })}
       <Footer />

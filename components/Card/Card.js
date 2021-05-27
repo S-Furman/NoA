@@ -9,7 +9,13 @@ const Card = (props) => {
         <p>{props.content}</p>
       </div>
       <div className={classes.rightSideContainer}>
-        <Image src={props.imgPath} layout="fill" objectFit="cover" />
+        <Image
+          src={props.imgPath}
+          layout="fill"
+          objectFit="cover"
+          alt={props.alt}
+          quality="10"
+        />
       </div>
     </article>
   );

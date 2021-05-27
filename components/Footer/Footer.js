@@ -4,7 +4,13 @@ import Image from "next/Image";
 const Footer = (props) => (
   <footer className={classes.footer}>
     <div className={classes.leftSideContainer}>
-      <Image src="/footerPic.jpg" layout="fill" objectFit="cover" />
+      <Image
+        src="/footerPic.jpg"
+        layout="fill"
+        objectFit="cover"
+        quality="10"
+        alt="smoothie enjoyer"
+      />
     </div>
     <div className={classes.rightSideContainer}>
       <header className={classes.cardHeader}>Sign up for our newsletter</header>
