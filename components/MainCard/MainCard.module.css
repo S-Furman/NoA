@@ -1,0 +1,21 @@
+.main {
+  background-image: url("../../public/mainPic.jpg");
+  width: 100%;
+  height: 60vh;
+  background-size: cover;
+}
+
+.header,
+.content {
+  text-align: center;
+  font-weight: bolder;
+  font-size: 5em;
+  color: white;
+  position: relative;
+  top: 30vh;
+}
+
+.content p {
+  color: green;
+  display: inline-block;
+}

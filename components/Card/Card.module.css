@@ -2,7 +2,7 @@
   width: 90%;
   margin: 50px auto;
   height: 50vh;
-  background-color: rgba(254, 197, 187, 0.2);
+  background-image: linear-gradient(315deg, #fce043 0%, #fb7ba2 74%);
 }
 
 .rightSideContainer {
@@ -20,6 +20,7 @@
 }
 
 .cardHeader {
+  font-weight: 500;
   font-size: 2.5vw;
   width: 40%;
   margin: 40px auto;
